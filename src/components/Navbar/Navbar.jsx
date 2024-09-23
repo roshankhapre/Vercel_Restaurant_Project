@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { FiChevronDown, FiMenu, FiX } from "react-icons/fi";
 import { Link, useLocation } from "react-router-dom"; // Import useLocation
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import CafeMenuCard from './../CafePage/CafeMenuCard';
 
 const NavbarNew = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -156,9 +155,7 @@ const NavbarNew = () => {
                   >
                     Restaurant
                   </Link>
-
                 </div>
-                
               )}
             </div>
             <Link
@@ -178,7 +175,7 @@ const NavbarNew = () => {
           </div>
 
           {/* Mobile Menu Toggle */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center pb-3">
             <button
               onClick={toggleMenu}
               className="text-white hover:text-red-500 transition-all duration-300"
@@ -198,7 +195,6 @@ const NavbarNew = () => {
             >
               Cafe
             </Link>
-            
 
             <Link
               to="/restaurant"
@@ -264,15 +260,11 @@ const NavbarNew = () => {
               className="block px-4 py-3 text-white hover:text-red-500 transition-all duration-300 tracking-wide"
               onClick={() => setIsOpen(false)}
             >
-                <button className="px-12 py-2 border-2 text-sm font-bold border-red-600 text-white  hover:text-red-500 hover:border-red-500 transition-all">
+              <button className="px-12 py-2 border-2 text-sm font-bold border-red-600 text-white  hover:text-red-500 hover:border-red-500 transition-all">
                 BOOK A TABLE <ArrowForwardIcon />
               </button>
             </Link>
-            
-          
           </div>
-
-          
         )}
       </nav>
     </header>

@@ -1,5 +1,6 @@
 import React from "react";
 import { aboutUsImage } from "../../assets/assets";
+import { Link } from "react-router-dom";
 
 const cafeAbout = [
   {
@@ -12,7 +13,7 @@ const cafeAbout = [
 
 const AboutUs = () => {
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-center justify-center bg-gray-900">
+    <div className="relative w-full md:min-h-screen flex flex-col items-center justify-center bg-gray-900">
       <div className="relative w-full h-full">
         {cafeAbout.map((about) => (
           <div key={about.id} className="relative w-full h-full">
@@ -21,14 +22,14 @@ const AboutUs = () => {
               <img
                 src={about.img}
                 alt={about.title}
-                className="w-full h-[50vh] md:h-[70vh] lg:h-screen object-cover filter brightness-50"
+                className="w-full h-[100vh] md:h-[70vh] lg:h-screen object-cover filter brightness-50"
               />
             </div>
 
             {/* Text Overlay */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center space-y-6 px-4 md:px-10 lg:px-0">
+            <div className="absolute inset-0 flex flex-col items-center justify-center md:space-y-6 px-4 md:px-10 lg:px-0">
               {/* Title "About Us" */}
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white bg-red-700 bg-opacity-80 px-6 py-3 md:px-10 md:py-4 rounded-xl shadow-2xl mb-8 md:mb-20">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white bg-red-700 bg-opacity-80 px-6  md:px-10 md:py-4 rounded-xl shadow-2xl mb-8 md:mb-20">
                 About Us
               </h1>
 
@@ -38,7 +39,7 @@ const AboutUs = () => {
               </h2>
 
               {/* Short Description */}
-              <p className="text-base sm:text-lg md:text-xl max-w-3xl text-white leading-relaxed text-center">
+              <p className=" text-base sm:text-lg md:text-xl max-w-3xl text-white leading-relaxed text-center">
                 {about.description}
               </p>
 
@@ -52,7 +53,7 @@ const AboutUs = () => {
                   and the perfect blend of tradition and innovation in every
                   dish."
                 </p>
-                <p className="text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed text-center">
+                <p className="hidden md:block text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed text-center">
                   "Founded on a love for food and community, we strive to create
                   an environment where everyone feels at home. Come in, relax,
                   and let us take you on a culinary journey like no other."
@@ -60,12 +61,12 @@ const AboutUs = () => {
               </div>
 
               {/* Call to Action */}
-              <a
-                href="#menu"
+              <Link 
+                to='/menu'
                 className="mt-4 sm:mt-6 inline-block px-6 sm:px-8 py-3 sm:py-4 bg-red-600 text-white text-sm sm:text-lg font-semibold rounded-full shadow-lg transition-transform transform hover:scale-105"
               >
                 Explore Our Menu
-              </a>
+              </Link>
             </div>
           </div>
         ))}

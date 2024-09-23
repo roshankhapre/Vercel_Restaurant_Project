@@ -45,7 +45,7 @@ const AboutUsGallery = () => {
   return (
     <div className="relative w-full h-auto py-16 bg-gradient-to-b from-black via-gray-800 to-black">
       <div className="text-center mb-10">
-        <h1 className="inline-block mt-10 text-white bg-red-700 text-3xl md:text-4xl font-bold rounded-lg shadow-lg px-6 py-3">
+        <h1 className="inline-block w-80 md:w-auto mt-10 text-white bg-red-700 text-3xl md:text-4xl font-bold rounded-lg shadow-lg px-6 py-3">
           K's DARSHAN FOOD GALLERY
         </h1>
         <p className="mt-4 py-10 text-2xl text-pink-400">

@@ -1,5 +1,6 @@
 import React from "react";
 import { cafeImages } from "../../assets/assets";
+import { Link } from "react-router-dom";
 
 const cafeServices = [
   {
@@ -53,9 +54,11 @@ const CafeServices = () => {
                 </p>
               </div>
               <div className="flex justify-center w-full mt-auto">
-                <button className="bg-gradient-to-r from-pink-400 to-pink-600 text-white px-6 py-2 rounded-full shadow-md hover:bg-gradient-to-r hover:from-pink-500 hover:to-pink-700 transition-colors duration-300">
+               <Link to='/bookingtable'>
+               <button className="bg-gradient-to-r from-pink-400 to-pink-600 text-white px-6 py-2 rounded-full shadow-md hover:bg-gradient-to-r hover:from-pink-500 hover:to-pink-700 transition-colors duration-300">
                   Book Now
                 </button>
+               </Link>
               </div>
             </div>
           ))}

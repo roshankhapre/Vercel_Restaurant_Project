@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import {
-  cafeCarousalImage,
-  cafeImages,
-  cafeImagess,
-} from "../../assets/assets";
+  cafeCarousalImage,cafeImages,} from "../../assets/assets";
 import WOW from "wowjs";
+import { Link } from "react-router-dom";
 
 const cafeImage = [
   {
@@ -34,8 +32,8 @@ const cafeImage = [
     description:
       "Whether you're working or socializing, our cozy pink-hued interiors provide the perfect backdrop.",
     cafeImg: cafeImages.cafeImg2,
-    button1: "Order Online",
-    button2: "Visit Us",
+    button1: "Book Now",
+    button2: "Visit Our Meal",
   },
 ];
 
@@ -99,12 +97,16 @@ const CafeCarousel = () => {
                 {item.description}
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <button className="bg-gradient-to-r from-pink-400 to-pink-600 hover:from-pink-600 hover:to-pink-400 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-pink-600/50 transform hover:scale-110">
+               <Link to='/bookingtable'>
+               <button className="bg-gradient-to-r from-pink-400 to-pink-600 hover:from-pink-600 hover:to-pink-400 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-pink-600/50 transform hover:scale-110">
                   {item.button1}
                 </button>
-                <button className="bg-gradient-to-r from-teal-400 to-teal-600 hover:from-teal-600 hover:to-teal-400 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-teal-600/50 transform hover:scale-110">
+               </Link>
+               <Link to='/CafeMenuCard'>
+               <button className="bg-gradient-to-r from-teal-400 to-teal-600 hover:from-teal-600 hover:to-teal-400 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-teal-600/50 transform hover:scale-110">
                   {item.button2}
                 </button>
+               </Link>
               </div>
             </div>
           </div>

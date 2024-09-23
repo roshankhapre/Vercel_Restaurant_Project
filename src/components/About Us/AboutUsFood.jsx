@@ -22,10 +22,10 @@ const aboutFood = [
 
 const AboutUsFood = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="mx-5 min-h-screen flex flex-col items-center justify-center bg-gray-100">
       {/* Section Title */}
       <div className="text-center w-full px-4 mb-16">
-        <h1 className="inline-block text-white bg-red-700 text-4xl md:text-3xl font-bold rounded-lg shadow-lg px-6 py-4">
+        <h1 className="inline-block text-white bg-red-700 text-xl mt-5 md:mt-0 md:text-3xl font-bold rounded-lg shadow-lg px-6 py-4">
           About <br /> K's DARSHAN
         </h1>
       </div>

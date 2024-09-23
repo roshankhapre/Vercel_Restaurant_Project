@@ -4,6 +4,7 @@ import Gather from './Gather';
 import BookingForm from '../BookingForm'
 import RestaurantMenuCard from './RestaurantMenuCard';
 
+
 const Reataurant = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Reataurant = () => {
       <Gather/>
       <RestaurantMenuCard/>
       <BookingForm/>
+     
     </div>
   )
 }

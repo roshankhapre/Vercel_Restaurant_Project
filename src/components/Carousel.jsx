@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { selectedAssets } from "../assets/assets"; // Import only the selectedAssets object
 import WOW from "wowjs";
 import "animate.css";
+import { Link } from "react-router-dom";
 
 // Texts array for each image
 const texts = [
@@ -11,6 +12,7 @@ const texts = [
       "Enjoy our selection of the finest meals and beverages in a relaxing atmosphere.",
     button1: "Book a Table",
     button2: "Explore More",
+    link:"/cafe",
   },
   {
     title: "Welcome to our Cozy Cafe",
@@ -18,6 +20,7 @@ const texts = [
       "A perfect spot for coffee lovers, offering a wide range of delicious brews.",
     button1: "Reserve Now",
     button2: "Explore",
+    link:"/cafe"
   },
   {
     title: "Experience Fine Dining",
@@ -25,6 +28,7 @@ const texts = [
       "Indulge in our exquisite menu and top-notch service in a stylish setting.",
     button1: "Reserve a Table",
     button2: "Discover More",
+    link:"/restaurant",
   },
   {
     title: "Relax in Our Beautiful Rooms",
@@ -32,6 +36,7 @@ const texts = [
       "Stay in one of our luxurious rooms with a beautiful view of the city.",
     button1: "Book a Room",
     button2: "View Rooms",
+    link:"/hotel"
   },
   {
     title: "Enjoy the Rooftop Cafe",
@@ -39,6 +44,7 @@ const texts = [
       "Take in the fresh air and stunning views while sipping your favorite drink.",
     button1: "Reserve a Spot",
     button2: "Discover Now",
+    link:"/rooftop"
   },
 ];
 
@@ -94,15 +100,19 @@ const Carousel = () => {
                   {texts[index].description}
                 </p>
                 <div className="flex space-x-2 lg:space-x-4 z-40 mt-4">
-                  <button className="wow animate_animated animate_bounceInLeft px-3 py-1 sm:px-6 sm:py-3 text-sm sm:text-xl lg:text-2xl rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 shadow-lg hover:shadow-xl">
+                 <Link to='/bookingTable'>
+                 <button className="wow animate_animated animate_bounceInLeft px-3 py-1 sm:px-6 sm:py-3 text-sm sm:text-xl lg:text-2xl rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 shadow-lg hover:shadow-xl">
                     {texts[index].button1}
                   </button>
-                  <button
+                 </Link>
+                 <Link to={texts[index].link}>
+                 <button
                     className="wow animate_animated animate_bounceInRight px-3 py-1 sm:px-6 sm:py-3 text-sm sm:text-xl lg:text-2xl rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 shadow-lg hover:shadow-xl"
-                    onClick={() => alert(`${texts[index].button2} clicked!`)}
+                    
                   >
                     {texts[index].button2}
                   </button>
+                 </Link>
                 </div>
               </div>
             )}

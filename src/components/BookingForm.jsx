@@ -47,7 +47,7 @@ const BookTableForm = () => {
         className="w-full max-w-3xl bg-white p-10 rounded-lg shadow-xl"
       >
         <div className="text-center lg:mx-52 py-10">
-          <h2 className="text-4xl font-bold text-brown bg-red-700 rounded-lg text-center  lg:text-white  mb-8 py-2">
+          <h2 className="text-4xl font-bold text-brown bg-red-700 rounded-lg text-center  text-white  mb-8 py-2">
             Book a Table
           </h2>
         </div>

@@ -7,7 +7,7 @@ import StarsIcon from "@mui/icons-material/Stars";
 const Menu = () => {
   // State to keep track of the selected category
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [bydefaultselected,setbydefaultselected] =useState('paneer')
+  const [bydefaultselected] =useState('paneer')
 
   // Create a ref for the scrolling container
   const scrollContainerRef = useRef(null);
@@ -78,7 +78,7 @@ const Menu = () => {
       itemname: "Ice Tea",
       category: "iceTea",
     },
-    item15: {
+    item3: {
       img: cafemenu.pizza,
       itemname: "Pizza",
       category: "pizza",
@@ -88,27 +88,27 @@ const Menu = () => {
       itemname: "Hot Black Coffee",
       category: "hotBlackCoffee",
     },
-    item11: {
+    item5: {
       img: cafemenu.burgers,
       itemname: "Burgers",
       category: "burgers",
     },
-    item5: {
+    item6: {
       img: cafemenu.hotMilkCoffee,
       itemname: "Hot Milk Coffee",
       category: "hotMilkCoffee",
     },
-    item10: {
+    item7: {
       img: cafemenu.fries,
       itemname: "Fries",
       category: "fries",
     },
-    item6: {
+    item8: {
       img: cafemenu.icedCoffee,
       itemname: "Iced Coffee",
       category: "icedCoffee",
     },
-    item7: {
+    item9: {
       img: cafemenu.sandwich,
       itemname: "Sandwich",
       category: "sandwich",
@@ -526,13 +526,8 @@ const Menu = () => {
       rating: 4.1,
       category: "pizza",
     },
-    item56: {
-      img: assets.mushroomSpecial,
-      itemname: "Mushroom Special",
-      price: "160",
-      rating: 4.1,
-      category: "pizza",
-    },
+    
+    
     item57: {
       img: assets.americanoHotCaffee,
       itemname: "Americano Hot Coffee",
@@ -624,7 +619,7 @@ const Menu = () => {
       rating: 4.5,
       category: "indianbread",
     },
-    item69: {
+    item691: {
       img: assets.alooParatha,
       itemname: "Aloo Paratha",
       price: "50",
@@ -869,7 +864,7 @@ const Menu = () => {
         </div>
 
         {/* Display filtered menu items */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5 mx-2 md:mx-20 md:mt-10 lg:mb-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5 mx-2 md:mx-20 md:mt-10 lg:mb-10 ">
           {filteredMenuItems.map((menuitem, index) => (
             <div key={index} className="border rounded-xl ">
               <img

@@ -1,5 +1,6 @@
 import React from "react";
 import { hotelRoomImages } from "../../assets/assets";
+import { Link } from "react-router-dom";
 const hotelRooms = [
   {
     id: 1,
@@ -32,12 +33,12 @@ const HotelCarousel = () => {
               </h1>
               <p className="font-merienda text-lg sm:text-xl md:text-2xl lg:text-3xl text-white mb-4 shadow-md shadow-green-800">{room.description}</p>
               <div className="flex space-x-4">
-                <button className="px-6 py-3 bg-gradient-to-r from-green-700 to-green-800 hover:from-green-800 hover:to-green-700 transition-all duration-300 rounded-full shadow-lg text-white font-semibold">
+               <Link to='/bookingtable'>
+               <button className="px-6 py-3 bg-gradient-to-r from-green-700 to-green-800 hover:from-green-800 hover:to-green-700 transition-all duration-300 rounded-full shadow-lg text-white font-semibold">
                   {room.button1}
                 </button>
-                <button className="px-6 py-3 bg-gradient-to-r from-gray-500 to-gray-600 hover:from-gray-600 hover:to-gray-700 transition-all duration-300 rounded-full shadow-lg text-white font-semibold">
-                  {room.button2}
-                </button>
+               </Link>
+              
               </div>
             </div>
           </div>

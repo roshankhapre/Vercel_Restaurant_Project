@@ -43,7 +43,7 @@ const HotelRooms = () => {
         </div>
 
         {/* Right Side: Image Section */}
-        <div className=" flex-1 relative flex items-center justify-center h-full md:h-auto">
+        <div className=" flex-1 relative flex  items-center justify-center  h-full md:h-auto">
           {hotelRoom.map((room, index) => (
             <div
               key={room.id}
@@ -62,7 +62,7 @@ const HotelRooms = () => {
               <img
                 src={room.img}
                 alt={`Room ${room.id}`}
-                className="w-60 h-60 object-cover rounded-lg shadow-2xl hover:shadow-3xl transition-shadow duration-500"
+                className="w-32 h-32 mt-10 md:w-60 md:h-60 object-cover rounded-lg shadow-2xl hover:shadow-3xl transition-shadow duration-500"
               />
             </div>
           ))}

@@ -7,6 +7,7 @@ import Menu from "./Restaurant/Menu";
 import HomeReview from "./HomeReview";
 import WhyUs from "./WhyUs";
 import Timing from "./Timing";
+import BookingForm from './BookingForm'
 
 const Homepage = () => {
   return (
@@ -19,7 +20,9 @@ const Homepage = () => {
       <Menu />
       <HomeReview />
       <WhyUs />
+      <BookingForm/>
       <Timing />
+    
     </div>
   );
 };

@@ -112,7 +112,7 @@ import salad from "./salad.jpeg";
 import khofta from "./kofta.jpeg";
 import thali from "./thali.jpeg";
 import sweets from "./sweets.jpeg";
-import rice from "./rice.jpeg";
+import rice from "./rice_bowl.webp";
 import indianbread from "./indianBread.jpeg";
 import mushroom from "./mushroom.jpeg";
 import soups from "./soup.jpeg";

@@ -4,7 +4,7 @@ import CafeDiscoverTest from "./CafeDiscoverTest";
 import CafeGallery from "./CafeGallery";
 import CafeMenuCard from './CafeMenuCard'
 import CafeServices from './CafeServices'
-
+import BookingForm from "../BookingForm";
 
 const Cafepage = () => {
   return (
@@ -14,6 +14,7 @@ const Cafepage = () => {
       <CafeGallery />
       <CafeServices/>
       <CafeMenuCard/>
+      <BookingForm/>
     </div>
   );
 };

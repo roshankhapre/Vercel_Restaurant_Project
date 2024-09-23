@@ -14,6 +14,7 @@ import BookingTable from "./components/BookingTable/BookingTable";
 import CafeMenuCard from "./components/CafePage/CafeMenuCard";
 import RestaurantMenuCard from "./components/Restaurant/RestaurantMenuCard";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,15 +23,16 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="cafe" element={<Cafepage />} />
-          <Route path="restaurant" element={<Reataurant />} />
-          <Route path="hotel" element={<HotelPage />} />
-          <Route path="rooftop" element={<RooftopPage />} />
-          <Route path="menu" element={<MenuCards />} />
-          <Route path="aboutus" element={<AboutUsPage />} />
-          <Route path="bookingTable" element={<BookingTable />} />
+          <Route path="/cafe" element={<Cafepage />} />
+          <Route path="/restaurant" element={<Reataurant />} />
+          <Route path="/hotel" element={<HotelPage />} />
+          <Route path="/rooftop" element={<RooftopPage />} />
+          <Route path="/menu" element={<MenuCards />} />
+          <Route path="/aboutus" element={<AboutUsPage />} />
+          <Route path="/bookingTable" element={<BookingTable />} />
           <Route path="/CafeMenuCard" element={<CafeMenuCard/>}/>
           <Route path="/RestaurantMenuCard" element={<RestaurantMenuCard/>}/>
+       
         </Routes>
 
         <Footer />
