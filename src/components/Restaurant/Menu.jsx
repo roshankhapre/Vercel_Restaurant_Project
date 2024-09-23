@@ -142,7 +142,7 @@ const Menu = () => {
       img: assets.matarPanner,
       itemname: "Matar Paneer",
 
-      price: "130",
+      price: "200",
       rating: 4.3,
       category: "paneer",
     },
@@ -150,7 +150,7 @@ const Menu = () => {
       img: assets.pannerpalak,
       itemname: "Palak Paneer",
 
-      price: "130",
+      price: "200",
       rating: 4.2,
       category: "paneer",
     },
@@ -158,7 +158,7 @@ const Menu = () => {
       img: assets.pannerchole,
       itemname: "Paneer Chole",
 
-      price: "130",
+      price: "200",
       rating: 4.3,
       category: "paneer",
     },
@@ -166,7 +166,7 @@ const Menu = () => {
       img: assets.pannerbhurji,
       itemname: "Paneer Bhurji",
 
-      price: "130",
+      price: "240",
       rating: 4.1,
       category: "paneer",
     },
@@ -174,7 +174,7 @@ const Menu = () => {
       img: assets.kadaipanner,
       itemname: "Kadai Paneer",
 
-      price: "130",
+      price: "220",
       rating: 4.3,
       category: "paneer",
     },
@@ -182,7 +182,7 @@ const Menu = () => {
       img: assets.pannerHandi,
       itemname: "Paneer Handi",
 
-      price: "130",
+      price: "220",
       rating: 4.1,
       category: "paneer",
     },
@@ -190,7 +190,7 @@ const Menu = () => {
       img: assets.tawaPanner,
       itemname: "Tawa Paneer ",
 
-      price: "130",
+      price: "230",
       rating: 4.2,
       category: "paneer",
     },
@@ -198,7 +198,7 @@ const Menu = () => {
       img: assets.sahiPanner,
       itemname: "Sahi Paneer ",
 
-      price: "130",
+      price: "220",
       rating: 4.2,
       category: "paneer",
     },
@@ -206,7 +206,7 @@ const Menu = () => {
       img: assets.tamatoSoup,
       itemname: "Tomato Soup",
 
-      price: "130",
+      price: "100",
       rating: 4.3,
       category: "soups",
     },
@@ -214,7 +214,7 @@ const Menu = () => {
       img: assets.hotAndSourSoup,
       itemname: "Hot and Sour Soup",
 
-      price: "130",
+      price: "100",
       rating: 4.0,
       category: "soups",
     },
@@ -222,7 +222,7 @@ const Menu = () => {
       img: assets.manchowSoup,
       itemname: "Manchow Soup",
 
-      price: "130",
+      price: "110",
       rating: 4.2,
       category: "soups",
     },
@@ -230,7 +230,7 @@ const Menu = () => {
       img: assets.sweetCornSoup,
       itemname: "Sweet Corn Soup",
 
-      price: "130",
+      price: "110",
       rating: 4.1,
       category: "soups",
     },
@@ -273,7 +273,7 @@ const Menu = () => {
     item21: {
       img: assets.icecream,
       itemname: "Ice Cream",
-      price: "150",
+      price: "50",
       rating: 4.5,
       category: "sweets",
     },
@@ -301,34 +301,34 @@ const Menu = () => {
     item25: {
       img: assets.gullabJamun,
       itemname: "Gullab Jamun",
-      price: "60",
+      price: "50",
       rating: 4.5,
       category: "sweets",
     },
     item26: {
       img: assets.pannerThali,
       itemname: "Panner Thali",
-      price: "200",
+      price: "220",
       rating: 4.5,
       category: "thali",
     },
     item27: {
       img: assets.seasonalvegthali,
       itemname: "seasonal Veg Thali",
-      price: "250",
+      price: "200",
       rating: 4.4,
       category: "thali",
     },
     item28: {
       img: assets.specialThali,
       itemname: "Special Thali",
-      price: "220",
+      price: "250",
       rating: 4.2,
       category: "thali",
     },
     item29: {
       img: assets.greenSalad,
-      itemname: "Special Thali",
+      itemname: "Green Salad",
       price: "50",
       rating: 4.5,
       category: "salad",
@@ -342,7 +342,7 @@ const Menu = () => {
     },
     item31: {
       img: assets.Kachumar,
-      itemname: "Special Thali",
+      itemname: "Kachumar Salad",
       price: "60",
       rating: 4.1,
       category: "salad",
@@ -487,7 +487,7 @@ const Menu = () => {
     item51: {
       img: assets.icedVanilla,
       itemname: "Iced Vanilla",
-      price: "80",
+      price: "70",
       rating: 4.3,
       category: "icedCoffee",
     },
@@ -649,7 +649,7 @@ const Menu = () => {
     },
     item73: {
       img: assets.masalaMushroom,
-      itemname: "Masala Mushroom",
+      itemname: " Mushroom Masala",
       price: "200",
       rating: 4.1,
       category: "mushroom",
