@@ -32,7 +32,7 @@ const Timing = () => {
               11:00 AM - 11:00 PM
             </p>
             <button className="flex items-center border border-red-700 text-red-700 rounded-md px-4 py-2 mt-4 sm:mt-6 lg:mt-8 hover:bg-red-100 transition">
-              <CallIcon className="mr-2" /> 07947425984
+              <CallIcon className="mr-2" />  <a href="tel:+9516997144">+9516997144</a>
             </button>
           </div>
         </div>
