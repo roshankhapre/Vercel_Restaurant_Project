@@ -28,7 +28,7 @@ const FoodMenu = {
       {
         id: 4,
         mealName: "Italian Plater (Pasta , Cheese Ball , Peri-Peri , Fries)",
-        mealPrice: 350,
+        mealPrice: 300,
       },
       { id: 5, mealName: "Paneer Sizzler", mealPrice: 350 },
       {

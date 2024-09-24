@@ -12,7 +12,7 @@ import cafe_table1 from "./cafe_inside_table.jpg";
 import cafe_table2 from "./cafe_inside_table2.jpg";
 import cafe_table3 from "./cafe_inside_sitting.jpg";
 import cafe_outside from "./cafe_outside.jpg";
-import restaurant1 from "./restuarant_table.jpg";
+
 import restaurant2 from "./restaurant_tabl2.jpg";
 import restaurant3 from "./restaurant_table3.jpg";
 import restaurant4 from "./restaurant_table4.jpg";
@@ -29,7 +29,7 @@ import skymeet from "./4081607.webp";
 import review1 from "./close-up-portrait-serious-attractive-man-student-with-dark-bristle-wears-spectacles_273609-17371.webp";
 import review2 from "./handsome-young-cheerful-man-with-arms-crossed_171337-1073.webp";
 import review3 from "./view-woman-holding-cup-coffee_23-2150698759.webp";
-import reviewBack from "./traditional-food.jpg";
+import reviewBack from "./traditional-food.webp";
 
 
 import foodCategory1 from "./side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate.webp";
@@ -40,7 +40,7 @@ import foodCategory5 from "./delicious-pizza-indoors.webp";
 import foodCategory6 from "./ai-generated-pasta.webp";
 import foodCategory7 from "./close-up-wrapped-vegetables-chopping-board.webp";
 import foodCategory8 from "./bottom-view-asian-ramen-noodles-with-coriander-bowl-dark-table.webp";
-import Gather from "./gather.jpg";
+import Gather from "./gather.webp";
 
 import matarPanner from "./matar paneer.webp";
 import pannerchole from "./panner chole.jpg";
@@ -92,14 +92,14 @@ import missiRoti from "./MissiRoti.webp";
 import butterNan from "./ButterNan.webp";
 import lachhaParatha from "./LacchaParatha.webp";
 import alooParatha from "./Aloo-Parathas-10-scaled.jpg";
-import gobiParatha from "./gobi-paratha-recipe-1-1024x1536.jpg";
+import gobiParatha from "./gobi-paratha-recipe-1-1024x1536.webp";
 
 //mushroom
 import matarMushroom from "./matarMashroom.webp";
 import masalaMushroom from "./mushroomMasala .jpg";
 import pannermushroom from "./PaneerMashroom.webp";
 
-import tamatoSoup from "./tomatoSoup.jpeg";
+import tamatoSoup from "./tomatoSoup.webp";
 import manchowSoup from "./manchowSoup.jpeg";
 import sweetCornSoup from "./sweetCornSoup.webp";
 import hotAndSourSoup from "./hotAndSourSoup.webp";
@@ -223,7 +223,7 @@ import cafeService1 from "./cake (1).gif";
 import cafeService2 from "./discussion (1).gif";
 import cafeService3 from "./chill (1).gif";
 import cafeDiscover from "./smiling-woman-confident-chef-cooking-with-elegance-success-generated-by-artificial-intelligence.webp";
-import cafeTest1 from "./chef.gif";
+import cafeTest1 from "./chef (1).webp";
 import cafeTest2 from "./table.gif";
 import cafeTest3 from "./food.gif";
 import cafeTest4 from "./menu.gif";
