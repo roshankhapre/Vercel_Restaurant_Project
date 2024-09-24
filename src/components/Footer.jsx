@@ -11,6 +11,7 @@ import img_3 from "../assets/hazeinut.webp";
 import img_4 from "../assets/hotAndSourSoup.webp";
 import img_5 from "../assets/lemonCoriderSoup.jpeg";
 import img_6 from "../assets/matar paneer.webp";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -41,8 +42,8 @@ const Footer = () => {
                 <span>Have Question?</span>
                 <h2 className="text-gray-400 text-2xl">
                  CONTACT{" "}
-                  <span className="text-yellow-50 hover:text-red-700 transition-colors duration-300">
-                    +9516997144 
+                 <span className="text-yellow-50 hover:text-red-700 transition-colors duration-300">
+                    <a href="tel:+9516997144">+9516997144</a>
                   </span>
                 </h2>
               </div>
@@ -61,26 +62,40 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-4">GET IN TOUCH</h3>
             <ul className="text-lg">
-              <li className="mb-2  transition-colors duration-300">
-              KS Darsan Cafe, 1 VIP Paraspar Nagar, Gopur Square, Indore - 452009
-              (Narmada Square)
+              <li className="mb-2 transition-colors duration-300">
+                <a
+                  href="https://goo.gl/maps/example"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  KS Darsan Cafe, 1 VIP Paraspar Nagar, Gopur Square, Indore -
+                  452009 (Narmada Square)
+                </a>
               </li>
-              <li className="mb-2  w-32 hover:text-red-700 transition-colors duration-300">
-                +9516997144 
+              <li className="mb-2 w-32 hover:text-red-700 transition-colors duration-300">
+                <a href="tel:+9516997144">+9516997144</a>
               </li>
-              <li className="mb-2 hover:text-red-700  w-64 transition-colors duration-300">
+              <li className="mb-2 hover:text-red-700 w-64 transition-colors duration-300">
                 booking@webexample.com
               </li>
             </ul>
             <div className="flex mt-4 space-x-3">
-            
-              <div className="bg-white p-2 rounded-full text-black hover:text-red-700 transition-colors duration-300">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-pink-500 p-2 rounded-full text-white hover:bg-red-700 transition-colors duration-300"
+              >
                 <InstagramIcon />
-              </div>
-             
-              <div className="bg-white p-2 rounded-full text-black hover:text-red-700 transition-colors duration-300">
+              </a>
+              <a
+                href="https://wa.me/+9516997144"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 p-2 rounded-full text-white hover:bg-red-700 transition-colors duration-300"
+              >
                 <WhatsAppIcon />
-              </div>
+              </a>
             </div>
           </div>
 
@@ -88,15 +103,21 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-4">FOOD MENU</h3>
             <ul className="space-y-2 text-lg">
-              <li className="hover:text-red-700  w-32 transition-colors duration-300 cursor-pointer">
+             <Link to='/CafeMenuCard'>
+             <li className="hover:text-red-700  w-32 transition-colors duration-300 cursor-pointer">
                 → Cafe Menu
               </li>
-              <li className="hover:text-red-700  w-48 transition-colors duration-300 cursor-pointer">
+             </Link>
+             <Link to='/RestaurantMenuCard'>
+             <li className="hover:text-red-700  w-48 transition-colors duration-300 cursor-pointer">
                 → Restaurant Menu
               </li>
-              <li className="hover:text-red-700  w-28 transition-colors duration-300 cursor-pointer">
+             </Link>
+             <Link to='/menu'>
+             <li className="hover:text-red-700  w-28 transition-colors duration-300 cursor-pointer">
                 → All Menu
               </li>
+             </Link>
              
             </ul>
           </div>

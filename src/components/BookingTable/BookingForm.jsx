@@ -43,7 +43,7 @@ const BookTableForm = () => {
     - Message: ${formData.message}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappNumber = "7089200175"; // Enter your WhatsApp number here
+    const whatsappNumber = "9516997144"; // Enter your WhatsApp number here
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
     setSubmitted(true);

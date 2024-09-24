@@ -13,12 +13,13 @@ import MenuCards from "./components/MenuCards/MenuCards";
 import BookingTable from "./components/BookingTable/BookingTable";
 import CafeMenuCard from "./components/CafePage/CafeMenuCard";
 import RestaurantMenuCard from "./components/Restaurant/RestaurantMenuCard";
+import PageNotFound from "./components/PageNotFound";
 
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
+    <BrowserRouter >
+      <div >
         <Navbar />
 
         <Routes>
@@ -33,6 +34,8 @@ function App() {
           <Route path="/CafeMenuCard" element={<CafeMenuCard/>}/>
           <Route path="/RestaurantMenuCard" element={<RestaurantMenuCard/>}/>
        
+            {/* Catch-all route for 404 page */}
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
 
         <Footer />

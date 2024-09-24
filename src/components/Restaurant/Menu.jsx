@@ -794,7 +794,7 @@ const Menu = () => {
         </p>
 
         {/* Scroll buttons */}
-        <div className="flex justify-between mx-1 lg:mx-20 ">
+        <div className="flex justify-between mx-3 lg:mx-20 ">
           <div className="text-xl font-bold ">What's on your mind?</div>
           <div className="space-x-5 ">
             <button

@@ -109,7 +109,7 @@ import dal from "./dal.jpeg";
 import panner from "./panner.jpeg";
 import salad from "./salad.jpeg";
 import khofta from "./kofta.jpeg";
-import thali from "./thali.jpeg";
+import thali from "./thali-removebg-preview.png";
 import sweets from "./sweets.jpeg";
 import rice from "./rice_bowl.webp";
 import indianbread from "./indianBread.jpeg";
@@ -120,7 +120,7 @@ import sizzers from "./sizzlers.jpeg";
 import restaurantCar from "./restaurantCar.webp";
 import restaurantCar2 from "./reataurantCar2.webp";
 import restaurantCar3 from "./restaurantCar3.webp";
-import reataurantCar4 from "./reataurantCar4.webp";
+
 import restaurantCar5 from "./reataurantCar5.webp";
 
 import rooftopCar from "./rooftopCar.webp";
