@@ -15,7 +15,7 @@ const customerImages = [
     id: 2,
     review:
       "A hidden gem for coffee lovers! The cappuccino was rich and smooth, and the pastries were heavenly. I also loved the quiet atmosphere, making it a perfect spot for reading or working.",
-    image: reviewImages.review2,
+    image: reviewImages.manreview1,
     name: "Rohan Singh",
     ratings: 4,
   },
@@ -31,7 +31,7 @@ const customerImages = [
     id: 4,
     review:
       "I absolutely love the cozy setting of this café. The staff is friendly, and the iced coffee is always refreshing. It's my favorite spot to catch up with friends or just relax with a book.",
-    image: reviewImages.review2, // Update this with the correct image
+    image: reviewImages.wwmanreview5, // Update this with the correct image
     name: "Simran Kapoor",
     ratings: 4,
   },
@@ -39,7 +39,7 @@ const customerImages = [
     id: 5,
     review:
       "The café has a great vibe with an amazing selection of teas. Their matcha latte is a must-try! I also appreciate how quiet the space is – great for working on my laptop.",
-    image: reviewImages.review3, // Update this with the correct image
+    image: reviewImages.manreview2, // Update this with the correct image
     name: "Aditya Mehta",
     ratings: 5,
   },
@@ -47,7 +47,7 @@ const customerImages = [
     id: 6,
     review:
       "The food is as fantastic as the coffee here. I tried their avocado toast, and it was delicious. Perfect for breakfast or lunch, and the outdoor seating area is lovely on sunny days!",
-    image: reviewImages.review3, // Update this with the correct image
+    image: reviewImages.wmanreview4, // Update this with the correct image
     name: "Meera Iyer",
     ratings: 5,
   },
@@ -55,7 +55,7 @@ const customerImages = [
     id: 7,
     review:
       "Amazing place for brunch! The pancakes were fluffy, and the fresh juices are worth the trip. The staff was attentive and friendly, making the overall experience top-notch.",
-    image: reviewImages.review7, // Update this with the correct image
+    image: reviewImages.manreview3, // Update this with the correct image
     name: "Arjun Desai",
     ratings: 4,
   },

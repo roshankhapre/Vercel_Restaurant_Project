@@ -121,16 +121,16 @@ const Carousel = () => {
       </div>
 
       {/* Indicator images */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-50 mb-10 lg:mb-20">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20 mb-20">
         {imagesArray
           .slice(visibleIndicatorsStart, visibleIndicatorsEnd)
           .map((image, index) => (
             <button
               key={index + visibleIndicatorsStart}
               onClick={() => setCurrentIndex(index + visibleIndicatorsStart)}
-              className={`w-6 h-6 sm:w-8 sm:h-8 lg:w-12 lg:h-12 rounded-full overflow-hidden ${
+              className={`w-8 h-8 sm:w-12 sm:h-12 rounded-full overflow-hidden ${
                 currentIndex === index + visibleIndicatorsStart
-                  ? "border-4 border-blue-500"
+                  ? "border-4 border-pink-500"
                   : "border-2 border-gray-400"
               }`}
             >

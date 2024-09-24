@@ -31,7 +31,6 @@ import review2 from "./handsome-young-cheerful-man-with-arms-crossed_171337-1073
 import review3 from "./view-woman-holding-cup-coffee_23-2150698759.webp";
 import reviewBack from "./traditional-food.webp";
 
-
 import foodCategory1 from "./side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate.webp";
 import foodCategory2 from "./plate-french-fries-wooden-table.webp";
 import foodCategory3 from "./grilled-cheeseburger-with-tomato-onion-fries-generated-by-ai.webp";
@@ -209,12 +208,10 @@ import vegscornandwich from "./Firefly cheese corn sandwich grilled image 21897.
 import vegpaneersandwich from "./Firefly cheese veg paneer sandwich grilled image 29968.webp";
 
 //fries
-import periPeri from './peri peri fries.webp'
-import cheseFries from './loaded cheese fries.webp'
+import periPeri from "./peri peri fries.webp";
+import cheseFries from "./loaded cheese fries.webp";
 
 //roshan
-
-
 
 import cafeImg from "./cafe1.webp";
 import cafeImg1 from "./cafe2.webp";
@@ -244,6 +241,13 @@ import aboutus2 from "./best-seller.png";
 
 import rooftop from "./rooftopcafeimg.webp";
 
+//review
+import manreview1 from "./portrait-man-drinking-tea.webp";
+import manreview2 from "./portrait-male-tourist-visiting-great-wall-china.webp";
+import manreview3 from "./portrait-indigenous-person-integrated-into-modern-life.webp";
+import wmanreview4 from "./celebration-deity-navratri.webp";
+import wwmanreview5 from "./celebration-navratri-deity (1).webp";
+import manreview6 from "./people-taking-part-sustainable-travel-movement.webp";
 
 export const menu = {
   dal,
@@ -421,10 +425,10 @@ export const assets = {
 
   //fries
   periPeri,
-cheseFries,
+  cheseFries,
 
-//sandwich
-vegsandwich,
+  //sandwich
+  vegsandwich,
   vegcheesesandwich,
   vegscornandwich,
   vegpaneersandwich,
@@ -435,7 +439,6 @@ export const selectedImages = {
   restaurantCar5,
   restaurantCar2,
   restaurantCar3,
-  
 };
 
 export const rooftopimg = {
@@ -443,11 +446,6 @@ export const rooftopimg = {
   rooftopCar1,
   rooftopCar2,
 };
-
-
-
-
-
 
 export const cafemenu = {
   hotTea,
@@ -463,17 +461,9 @@ export const cafemenu = {
   mocktials,
   pizza,
   sakes,
-  
 };
 
-
 // src/assets/assets.js
-
-
-
-
-
-
 
 export const assets1 = {
   cafe_desk1,
@@ -536,6 +526,12 @@ export const reviewImages = {
   review2,
   review3,
   reviewBack,
+  manreview1,
+  manreview2,
+  manreview3,
+  wmanreview4,
+  wwmanreview5,
+  manreview6,
 };
 
 export const foodCategoryImages = {
@@ -550,7 +546,6 @@ export const foodCategoryImages = {
 };
 
 export const cafeImages = {
-
   cafeImg,
   cafeImg1,
   cafeImg2,
@@ -569,13 +564,11 @@ export const cafeImages = {
   cafe5,
 };
 
-export const cafeCarousalImage={
+export const cafeCarousalImage = {
   cafeImg,
   cafeImg1,
-  cafeImg2
-  
-
-}
+  cafeImg2,
+};
 
 export const hotelRoomImages = {
   hotelroom1,

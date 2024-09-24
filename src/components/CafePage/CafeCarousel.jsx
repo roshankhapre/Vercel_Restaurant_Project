@@ -113,7 +113,7 @@ const CafeCarousel = () => {
         ))}
       </div>
       {/* Carousel Dots */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-50 mb-20">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20 mb-20">
         {imagesArray
           .slice(visibleIndicatorsStart, visibleIndicatorsEnd)
           .map((image, index) => (
@@ -128,7 +128,7 @@ const CafeCarousel = () => {
             >
               <img
                 src={image}
-                alt={`Slide ${index + visibleIndicatorsStart + 1} indicator`} // Updated alt attribute
+                alt={`Slide ${index + visibleIndicatorsStart + 1} indicator`}
                 className="w-full h-full object-cover"
               />
             </button>

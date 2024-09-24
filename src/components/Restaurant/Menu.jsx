@@ -7,7 +7,7 @@ import StarsIcon from "@mui/icons-material/Stars";
 const Menu = () => {
   // State to keep track of the selected category
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [bydefaultselected] =useState('paneer')
+  const [bydefaultselected] = useState("paneer");
 
   // Create a ref for the scrolling container
   const scrollContainerRef = useRef(null);
@@ -59,7 +59,7 @@ const Menu = () => {
       itemname: "Salad & Papad",
       category: "salad",
     },
-   
+
     item2: {
       img: menu.rice,
       itemname: "Rice",
@@ -113,7 +113,7 @@ const Menu = () => {
       itemname: "Sandwich",
       category: "sandwich",
     },
-   
+
     item10: {
       img: cafemenu.fries,
       itemname: "Fries",
@@ -526,8 +526,7 @@ const Menu = () => {
       rating: 4.1,
       category: "pizza",
     },
-    
-    
+
     item57: {
       img: assets.americanoHotCaffee,
       itemname: "Americano Hot Coffee",
@@ -752,16 +751,14 @@ const Menu = () => {
       price: "80",
       rating: 4.2,
       category: "fries",
-    }, item88: {
+    },
+    item88: {
       img: assets.cheseFries,
       itemname: "Cheese loaded fries",
       price: "100",
       rating: 4.4,
       category: "fries",
     },
-
-    
-    
   };
 
   // Function to scroll the category container
@@ -780,13 +777,15 @@ const Menu = () => {
         (menuitem) => menuitem.category === selectedCategory
       )
     : Object.values(menuitems).filter(
-      (menuitem) => menuitem.category === bydefaultselected
-    );
+        (menuitem) => menuitem.category === bydefaultselected
+      );
 
   return (
     <div>
       <div className="grid my-10 ">
-        <h2 className="text-4xl lg:text-7xl font-bold text-center text-red-700">MENU</h2>
+        <h2 className="text-4xl lg:text-7xl font-bold text-center text-red-700">
+          MENU
+        </h2>
         <p className="my-5 text-center mx-5 lg:mx-48 text-base lg:text-xl  md:mb-14">
           At K'Darshan, we take pride in offering a diverse selection of freshly
           prepared dishes, crafted with the finest ingredients. Whether you're
@@ -796,23 +795,21 @@ const Menu = () => {
 
         {/* Scroll buttons */}
         <div className="flex justify-between mx-1 lg:mx-20 ">
-          <div className="text-xl font-bold ">
-              What's on your mind?
-          </div>
+          <div className="text-xl font-bold ">What's on your mind?</div>
           <div className="space-x-5 ">
-          <button
-            className="bg-red-500 text-white p-2 rounded-lg"
-            onClick={() => scroll(-200)} // Scroll left
-          >
-            <ArrowBackIcon />
-          </button>
-          <button
-            className="bg-red-500 text-white p-2 rounded-lg"
-            onClick={() => scroll(200)} // Scroll right
-          >
-            <ArrowForwardIcon />
-          </button>
-        </div>
+            <button
+              className="bg-red-500 text-white p-2 rounded-lg"
+              onClick={() => scroll(-200)} // Scroll left
+            >
+              <ArrowBackIcon />
+            </button>
+            <button
+              className="bg-red-500 text-white p-2 rounded-lg"
+              onClick={() => scroll(200)} // Scroll right
+            >
+              <ArrowForwardIcon />
+            </button>
+          </div>
         </div>
 
         <div
@@ -820,23 +817,21 @@ const Menu = () => {
           style={{
             scrollbarWidth: "none", // Hide scrollbar in Firefox
             msOverflowStyle: "none", // Hide scrollbar in IE/Edge
-
-            
           }}
           ref={scrollContainerRef}
         >
-           <style jsx>{`
-    /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
-    .no-scrollbar::-webkit-scrollbar {
-      display: none;
-    }
+          <style jsx>{`
+            /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
+            .no-scrollbar::-webkit-scrollbar {
+              display: none;
+            }
 
-    /* Hide scrollbar in all browsers */
-    .no-scrollbar {
-      scrollbar-width: none; /* Firefox */
-      -ms-overflow-style: none; /* IE and Edge */
-    }
-  `}</style>
+            /* Hide scrollbar in all browsers */
+            .no-scrollbar {
+              scrollbar-width: none; /* Firefox */
+              -ms-overflow-style: none; /* IE and Edge */
+            }
+          `}</style>
           <div className="flex  md:gap-10 lg:mb-5">
             {Object.values(categorys).map((category, index) => (
               <div
@@ -848,7 +843,7 @@ const Menu = () => {
                   <img
                     src={category.img}
                     alt="menu"
-                    className="items-center ml-10 md:ml-6 w-20 md:w-28"
+                    className="items-center ml-10 md:ml-6 w-20 h-20 md:h-28 md:w-28"
                     loading="lazy"
                   />
                 </div>
@@ -880,7 +875,7 @@ const Menu = () => {
         </div>
 
         {/* Display filtered menu items */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5 mx-2 md:mx-20 md:mt-10 lg:mb-10 ">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5 mx-2 md:mx-20 md:mt-10 lg:mb-10  ">
           {filteredMenuItems.map((menuitem, index) => (
             <div key={index} className="border rounded-xl ">
               <img
