@@ -820,9 +820,23 @@ const Menu = () => {
           style={{
             scrollbarWidth: "none", // Hide scrollbar in Firefox
             msOverflowStyle: "none", // Hide scrollbar in IE/Edge
+
+            
           }}
           ref={scrollContainerRef}
         >
+           <style jsx>{`
+    /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar in all browsers */
+    .no-scrollbar {
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+    }
+  `}</style>
           <div className="flex  md:gap-10 lg:mb-5">
             {Object.values(categorys).map((category, index) => (
               <div
@@ -835,6 +849,7 @@ const Menu = () => {
                     src={category.img}
                     alt="menu"
                     className="items-center ml-10 md:ml-6 w-20 md:w-28"
+                    loading="lazy"
                   />
                 </div>
                 <div className="text-center">{category.itemname}</div>
@@ -853,6 +868,7 @@ const Menu = () => {
                     src={category.img}
                     alt="menu"
                     className="ml-10 md:ml-5 mb-3 md:w-28 h-16 md:h-24 w-24 items-center"
+                    loading="lazy"
                   />
                 </div>
                 <div className="text-center  text:sm md:text-base">
