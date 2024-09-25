@@ -15,7 +15,6 @@ const Homepage = () => {
       <Carousel />
       <About />
       <BookingCard />
-
       <ChooseUs />
       <Menu />
       <HomeReview />
