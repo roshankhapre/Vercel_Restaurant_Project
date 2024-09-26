@@ -12,6 +12,7 @@ import cafe_table1 from "./cafe_inside_table.jpg";
 import cafe_table2 from "./cafe_inside_table2.jpg";
 import cafe_table3 from "./cafe_inside_sitting.jpg";
 import cafe_outside from "./cafe_outside.jpg";
+import logofood from './logofood-removebg-preview.png'
 
 import restaurant2 from "./restaurant_tabl2.jpg";
 import restaurant3 from "./restaurant_table3.jpg";
@@ -264,6 +265,7 @@ export const menu = {
 };
 
 export const assets = {
+  logofood,
   chef,
   Why,
   productivity,

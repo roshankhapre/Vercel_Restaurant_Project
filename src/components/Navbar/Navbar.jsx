@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { FiChevronDown, FiMenu, FiX } from "react-icons/fi";
 import { Link, useLocation } from "react-router-dom"; // Import useLocation
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { assets } from "../../assets/assets";
 
 const NavbarNew = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -81,12 +82,14 @@ const NavbarNew = () => {
       </div>
 
       {/* Main Navbar */}
-      <nav className="bg-neutral-950">
+      <nav className="bg-neutral-950 ">
         <div className="container mx-auto px-4 py-2 flex items-center justify-between">
           {/* Logo with Home Page Link */}
           <div className="flex items-center">
             <Link to="/" className="text-white text-2xl font-bold">
-              k's Darshan
+            <div className="flex">
+            <div> <img src={assets.logofood} alt="logo" className="h-20" /></div><div className="content-center text-orange-300">Darshan's</div>
+            </div>
             </Link>
           </div>
 
