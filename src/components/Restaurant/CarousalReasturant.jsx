@@ -86,24 +86,24 @@ const CarousalReasturant = () => {
             />
             {index === currentIndex && texts[index] && (
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-50 z-30">
-                <h1 className="wow animate__animated animate__backInDown text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">
+                <h1 className="animate__animated animate__fadeInDown wow text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">
                   {texts[index].title}
                 </h1>
-                <div className="font-merienda text-lg sm:text-xl md:text-2xl lg:text-3xl text-white mb-4 shadow-md shadow-red-700">
+                <div className=" font-merienda text-lg sm:text-xl md:text-2xl animate__animated animate__fadeInDown wow lg:text-3xl text-white mb-4 shadow-md shadow-red-700">
                   {texts[index].subtitle}
                 </div>
-                <div className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-8 px-6 sm:px-10 lg:px-20 shadow-md shadow-gray-700 max-w-2xl leading-relaxed">
+                <div className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 animate__animated animate__fadeInDown wow mb-8 px-6 sm:px-10 lg:px-20 shadow-md shadow-gray-700 max-w-2xl leading-relaxed">
                   {texts[index].description}
                 </div>
                 <div className="flex space-x-4 z-40 mt-4">
                  <Link to='/bookingtable'>
-                 <button className="wow animate__animated animate__bounceInLeft px-4 py-2 sm:px-6 sm:py-2 text-base sm:text-xl lg:text-2xl rounded-xl bg-red-700 hover:bg-red-800 transition duration-300">
+                 <button className=" px-4 py-2 sm:px-6 wow animate__backInLeft animate__animated sm:py-2 text-base sm:text-xl lg:text-2xl rounded-xl bg-red-700 hover:bg-red-800 transition duration-300">
                     {texts[index].button1}
                   </button>
                  </Link>
                  <Link to='/RestaurantMenuCard'>
                  <button
-                    className="wow animate__animated animate__bounceInRight px-4 py-2 sm:px-6 sm:py-2 text-base sm:text-xl lg:text-2xl rounded-xl bg-red-700 hover:bg-red-800 transition duration-300"
+                    className=" px-4 py-2 sm:px-6 sm:py-2 wow animate__backInRight animate__animated text-base sm:text-xl lg:text-2xl rounded-xl bg-red-700 hover:bg-red-800 transition duration-300"
                    
                   >
                     {texts[index].button2}

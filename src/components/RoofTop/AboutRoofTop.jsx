@@ -5,7 +5,7 @@ const AboutRoofTop = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 px-5 py-10">
       {/* Text Section */}
-      <div className="flex flex-col justify-center lg:ml-10">
+      <div className="flex flex-col justify-center lg:ml-10 animate__fadeInLeft wow animate__animated">
         <div className="text-white font-bold bg-red-700 p-3 lg:p-4 w-fit text-xl lg:text-2xl rounded-xl mb-4 lg:mb-6">
           Welcome to K'Darshan
         </div>
@@ -22,7 +22,7 @@ const AboutRoofTop = () => {
       </div>
 
       {/* Image Section */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center wow animate__fadeInRight animate__animated">
         <img
           src={assets.friendsHandout}
           alt="Friends dining"

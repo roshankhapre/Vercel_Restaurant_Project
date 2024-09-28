@@ -21,7 +21,7 @@ const HotelRooms = () => {
     <div className="relative w-full pb-20  h-screen bg-gradient-to-t from-gray-100 via-gray-200 to-red-100 flex flex-col items-center justify-center px-4 md:px-8">
       {/* Rooms View Heading */}
       <div className="absolute top-10 w-full flex justify-center ">
-        <h1 className="inline-block text-white  p-4 md:p-6 bg-green-700 rounded-lg text-3xl md:text-4xl font-bold shadow-xl tracking-wide">
+        <h1 className="inline-block text-white  p-4 md:p-6 animate__bounceIn wow animate__animated bg-green-700 rounded-lg text-3xl md:text-4xl font-bold shadow-xl tracking-wide">
           ROOMS VIEW
         </h1>
       </div>
@@ -29,7 +29,7 @@ const HotelRooms = () => {
       {/* Main Content */}
       <div className="flex flex-1 w-full justify-between  items-center pt-24 md:pt-20 flex-col-reverse md:flex-row">
         {/* Left Side: Text Section */}
-        <div className="flex-1 space-y-4  text-center md:text-left py-6">
+        <div className="flex-1 space-y-4  text-center md:text-left py-6 animate__fadeInLeft wow animate__animated">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-800 py-4 md:py-6">
             RELAX IN OUR ROOMS
           </h2>
@@ -43,7 +43,7 @@ const HotelRooms = () => {
         </div>
 
         {/* Right Side: Image Section */}
-        <div className=" flex-1 relative flex  items-center justify-center  h-full md:h-auto">
+        <div className=" flex-1 relative flex  items-center justify-center  h-full md:h-auto animate__fadeInRight wow animate__animated">
           {hotelRoom.map((room, index) => (
             <div
               key={room.id}

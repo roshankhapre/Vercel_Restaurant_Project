@@ -23,12 +23,12 @@ const HotelServices = () => {
   return (
     <div className="container mx-auto py-16">
       {/* Section Title */}
-      <div className="text-center w-full px-4 mb-16">
-        <h1 className="inline-block text-white bg-green-700 text-4xl md:text-3xl font-bold rounded-lg shadow-lg px-6 py-4">
+      <div className="text-center w-full px-4 mb-16 ">
+        <h1 className="inline-block text-white bg-green-700 animate__fadeInDown wow animate__animated text-4xl md:text-3xl font-bold rounded-lg shadow-lg px-6 py-4">
           K's DARSHAN <br />
           HOTEL SERVICES
         </h1>
-        <p className="text-lg mt-4 text-gray-600 max-w-3xl mx-auto py-10">
+        <p className="text-lg mt-4 text-gray-600 max-w-3xl animate__fadeInDown wow animate__animated mx-auto py-10">
           Experience the best in hospitality and culinary delights at K's
           Darshan Hotel. From our welcoming reception to our exquisite
           restaurant, we ensure your comfort and satisfaction every step of the
@@ -41,21 +41,21 @@ const HotelServices = () => {
         {hotelServices.map((service, index) => (
           <div
             key={service.id}
-            className="grid grid-cols-1 md:grid-cols-2 items-center gap-16"
+            className="grid grid-cols-1 md:grid-cols-2 items-center gap-16 "
           >
             {/* Conditional ordering for text and image */}
             <div
-              className={`${
+              className={`${ 
                 index % 2 === 1 ? "md:order-2" : "md:order-1"
               } space-y-6 px-6`}
             >
-              <h2 className="text-4xl font-bold text-gray-800">
+              <h2 className="text-4xl font-bold text-gray-800 wow animate__animated animate__fadeInUp">
                 {service.title}
               </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg text-gray-600 leading-relaxed wow animate__animated animate__fadeInUp">
                 {service.description}
               </p>
-              <button className="mt-6 px-8 py-3 text-white bg-green-700 hover:bg-green-800 rounded-lg shadow-md transition-all duration-300 transform ">
+              <button className="mt-6 px-8 py-3 text-white bg-green-700 wow animate__animated animate__fadeInUp hover:bg-green-800 rounded-lg shadow-md transition-all duration-300 transform ">
                 Explore More
               </button>
             </div>

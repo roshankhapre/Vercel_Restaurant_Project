@@ -6,14 +6,14 @@ const About = () => {
   return (
     <div className='p-4 '>
       <div className='flex flex-col md:flex-row lg:items-center lg:justify-center gap-6'>
-        <div className='w-96 lg:w-1/2'>
+        <div className='w-96 lg:w-1/2 animate__backInLeft wow animate__animated'>
           <img
             src={assets.chef}
-            alt="chef photo"
+            alt="chef "
             className=' w-auto h-auto  rounded-lg object-cover'
           />
         </div>
-        <div className='flex flex-col justify-center lg:w-1/2'>
+        <div className='flex flex-col justify-center lg:w-1/2 animate__backInRight wow animate__animated'>
           <div className='bg-red-700 text-white rounded-lg font-bold text-center  py-2 px-4 mb-4 w-64'>
             ABOUT K'S Darshan Cafe
           </div>
@@ -24,10 +24,12 @@ const About = () => {
           Perfectly seared scallops, tender and flavorful, were paired with a velvety risotto and crisp seasonal veggies, making for a delightful culinary experience
           </div>
           <div className='flex items-center'>
+          <a href="tel:+9516997144">
             <span className='rounded-full bg-red-700 p-2 mr-3 text-white'>
               <CallIcon />
             </span>
-            <span className='text-lg font-medium'>Phone: 9516997144</span>
+            <span className='text-lg font-medium'> Phone: 9516997144</span>
+            </a>
           </div>
         </div>
       </div>

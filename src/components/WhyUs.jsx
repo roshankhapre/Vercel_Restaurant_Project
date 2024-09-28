@@ -4,8 +4,8 @@ import { assets } from "../assets/assets";
 const WhyUs = () => {
   return (
     <div className="px-4 sm:px-10 lg:px-20 py-5 bg-gray-100">
-      <div className="flex flex-col lg:flex-row lg:gap-10">
-        <div className="lg:w-1/2">
+      <div className="flex flex-col lg:flex-row lg:gap-10 ">
+        <div className="lg:w-1/2 animate__fadeInLeft animate__animated wow">
           <div className="bg-red-600 rounded-lg p-2 w-32 text-white font-bold text-center my-5">
             K'S Darshan
           </div>
@@ -74,7 +74,7 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-        <div className="mt-10 lg:mt-0 lg:w-1/2 ">
+        <div className="mt-10 lg:mt-0 lg:w-1/2 animate__animated wow animate__fadeInRight ">
           <img
             src={assets.Why}
             alt="whyUs"

@@ -43,7 +43,7 @@ const cafeGallery = [
 const CafeGallery = () => {
   return (
     <div className="relative w-full h-auto py-16 bg-gradient-to-b from-black via-gray-800 to-black">
-      <div className="text-center mb-10">
+      <div className="text-center mb-10 animate__zoomIn wow animate__animated">
         <h1 className="inline-block mt-10 text-white bg-gradient-to-r from-pink-400 to-pink-600 text-3xl md:text-4xl font-bold rounded-lg shadow-lg px-6 py-3">
           OUR CAFE GALLERY
         </h1>
@@ -51,11 +51,11 @@ const CafeGallery = () => {
           Discover the charm of our cozy and modern cafe
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8 ">
         {cafeGallery.map((item) => (
           <div
             key={item.id}
-            className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            className="relative group overflow-hidden rounded-lg animate__fadeInUp wow animate__animated shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
           >
             <img
               src={item.img}

@@ -42,7 +42,7 @@ const BookingCard = () => {
   return (
     <div className="bg-gradient-to-b from-gray-100 to-gray-300 min-h-screen py-12 px-4 sm:px-8 md:px-10 lg:px-20 ">
       {/* Section Title */}
-      <div className="text-center mb-12">
+      <div className="text-center mb-12 wow animate__animated animate__bounceInDown">
         <h2 className="inline-block text-3xl sm:text-4xl lg:text-5xl font-semibold text-white bg-red-700 py-2 px-6 rounded-lg shadow-lg ">
           Our Services
         </h2>
@@ -54,7 +54,7 @@ const BookingCard = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 wow animate__animated animate__fadeInUp">
         {servicesBooking.map((service) => (
           <div
             key={service.id}

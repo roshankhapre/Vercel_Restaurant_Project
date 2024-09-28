@@ -1,6 +1,7 @@
 import React from "react";
 import { aboutUsImage } from "../../assets/assets";
 
+
 const aboutFood = [
   {
     id: 1,
@@ -24,19 +25,19 @@ const AboutUsFood = () => {
   return (
     <div className="mx-5 min-h-screen flex flex-col items-center justify-center bg-gray-100">
       {/* Section Title */}
-      <div className="text-center w-full px-4 mb-16">
-        <h1 className="inline-block text-white bg-red-700 text-xl mt-5 md:mt-0 md:text-3xl font-bold rounded-lg shadow-lg px-6 py-4">
+      <div className="text-center w-full px-4 mb-16 animate__bounceInLeft wow animate__animated">
+        <h1 className="inline-block text-white bg-red-700  text-xl mt-5 md:mt-0 md:text-3xl font-bold rounded-lg shadow-lg px-6 py-4">
           About <br /> K's DARSHAN
         </h1>
       </div>
-      <h1 className="text-4xl font-extrabold mb-12">
+      <h1 className="text-4xl font-extrabold mb-12 ">
         DELICIOUS FOOD FOR HEALTHY LIFE
       </h1>
 
       {/* Layout with content on the left and large image on the right */}
       <div className="flex flex-col md:flex-row w-full md:w-3/4 items-start justify-between">
         {/* Left side with first two images and text */}
-        <div className="flex flex-col md:w-1/2 items-start space-y-8 p-4">
+        <div className="flex flex-col md:w-1/2 items-start space-y-8 p-4 ">
           {aboutFood.slice(0, 2).map((food) => (
             <div key={food.id} className="flex items-start space-x-4">
               <img
@@ -55,7 +56,7 @@ const AboutUsFood = () => {
         </div>
 
         {/* Right side with the third, larger image */}
-        <div className="md:w-1/2 flex justify-center p-4">
+        <div className="md:w-1/2 flex justify-center p-4 ">
           <img
             src={aboutFood[2].img}
             alt="Meal"

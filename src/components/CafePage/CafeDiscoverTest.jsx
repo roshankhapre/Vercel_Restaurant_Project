@@ -29,13 +29,13 @@ const CafeDiscoverTest = () => {
     <div className="w-full bg-gray-100 flex flex-col items-center py-10">
       {/* Heading Section */}
       <div className="mt-10 my-10">
-        <h2 className="text-white bg-gradient-to-r from-pink-400 to-pink-600 text-2xl sm:text-3xl md:text-4xl px-5 sm:px-10 py-3 sm:py-5 rounded-lg text-center shadow-lg">
+        <h2 className="text-white bg-gradient-to-r wow animate__animated animate__zoomIn from-pink-400 to-pink-600 text-2xl sm:text-3xl md:text-4xl px-5 sm:px-10 py-3 sm:py-5 rounded-lg text-center shadow-lg">
           Discover Your Taste In K's Darshan
         </h2>
       </div>
 
       {/* Subtitle Section */}
-      <div className="px-5 md:px-0 text-center">
+      <div className="px-5 md:px-0 text-center wow animate__animated animate__zoomIn">
         <h2 className="my-5 text-pink-500 font-bold text-xl sm:text-2xl md:text-4xl">
           WE PROVIDE GOOD FOOD FOR YOUR FAMILY!
         </h2>
@@ -44,7 +44,7 @@ const CafeDiscoverTest = () => {
       {/* Main Content Section */}
       <div className="flex flex-col md:flex-row w-11/12 lg:w-9/12 bg-white shadow-lg rounded-lg overflow-hidden">
         {/* Left Side: Grid of Small Images */}
-        <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 sm:p-8">
+        <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 sm:p-8 animate__slideInLeft wow animate__animated">
           {CafeDiscover.map((cafeDiscover) => (
             <div
               key={cafeDiscover.id}
@@ -63,7 +63,7 @@ const CafeDiscoverTest = () => {
         </div>
 
         {/* Right Side: Main Discovery Image */}
-        <div className="flex-1 flex items-center justify-center p-6 sm:p-8">
+        <div className="flex-1 flex items-center justify-center p-6 sm:p-8 wow animate__animated animate__slideInRight">
           <img
             src={cafeImages.cafeDiscover}
             alt="Cafe Discover"

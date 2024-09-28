@@ -93,21 +93,21 @@ const Carousel = () => {
             />
             {index === currentIndex && texts[index] && (
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-60 z-30 p-4">
-                <h1 className="wow animate_animated animate_fadeInDown text-2xl sm:text-3xl lg:text-5xl xl:text-7xl font-bold mb-4 py-4 lg:py-5">
+                <h1 className="animate__animated animate__fadeInDown wow text-2xl sm:text-3xl lg:text-5xl xl:text-7xl font-bold mb-4 py-4 lg:py-5">
                   {texts[index].title}
                 </h1>
-                <p className="wow animate_animated animate_fadeInUp text-sm sm:text-lg lg:text-2xl mb-4 py-4 lg:py-5">
+                <p className="animate__animated animate__fadeInDown wow text-sm sm:text-lg lg:text-2xl mb-4 py-4 lg:py-5">
                   {texts[index].description}
                 </p>
                 <div className="flex space-x-2 lg:space-x-4 z-40 mt-4">
                  <Link to='/bookingTable'>
-                 <button className="wow animate_animated animate_bounceInLeft px-3 py-1 sm:px-6 sm:py-3 text-sm sm:text-xl lg:text-2xl rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 shadow-lg hover:shadow-xl">
+                 <button className=" wow animate__backInLeft animate__animated px-3 py-1 sm:px-6 sm:py-3 text-sm sm:text-xl lg:text-2xl rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 shadow-lg hover:shadow-xl">
                     {texts[index].button1}
                   </button>
                  </Link>
                  <Link to={texts[index].link}>
                  <button
-                    className="wow animate_animated animate_bounceInRight px-3 py-1 sm:px-6 sm:py-3 text-sm sm:text-xl lg:text-2xl rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 shadow-lg hover:shadow-xl"
+                    className=" px-3 py-1 sm:px-6 wow animate__backInRight animate__animated sm:py-3 text-sm sm:text-xl lg:text-2xl rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 shadow-lg hover:shadow-xl"
                     
                   >
                     {texts[index].button2}

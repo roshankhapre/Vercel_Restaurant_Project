@@ -783,10 +783,10 @@ const Menu = () => {
   return (
     <div>
       <div className="grid my-10 ">
-        <h2 className="text-4xl lg:text-7xl font-bold text-center text-red-700">
+        <h2 className="text-4xl lg:text-7xl font-bold text-center text-red-700 wow animate__fadeInDown animate__animated">
           MENU
         </h2>
-        <p className="my-5 text-center mx-5 lg:mx-48 text-base lg:text-xl  md:mb-14">
+        <p className="my-5 text-center mx-5 lg:mx-48 text-base lg:text-xl  md:mb-14 wow animate__animated animate__lightSpeedInLeft animate__zoomInLeft">
           At K'Darshan, we take pride in offering a diverse selection of freshly
           prepared dishes, crafted with the finest ingredients. Whether you're
           craving hearty classics or modern fusion cuisine, our menu is designed

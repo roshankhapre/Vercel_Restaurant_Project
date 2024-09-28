@@ -86,24 +86,24 @@ const CafeCarousel = () => {
               }}
             />
             {/* Overlay Text Content */}
-            <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 sm:px-8">
-              <h2 className="font-caveat text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-2 drop-shadow-lg">
+            <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 sm:px-8 ">
+              <h2 className="font-caveat text-3xl sm:text-3xl md:text-4xl lg:text-5xl animate__animated animate__fadeInDown wow xl:text-6xl font-bold text-white mb-2 drop-shadow-lg">
                 {item.title}
               </h2>
-              <p className="font-merienda text-lg sm:text-xl md:text-2xl lg:text-3xl text-white mb-4 shadow-md shadow-pink-400">
+              <p className="font-merienda text-lg sm:text-xl md:text-2xl lg:text-3xl animate__animated animate__fadeInDown wow text-white mb-4 shadow-md shadow-pink-400">
                 {item.subtitle}
               </p>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-8 px-6 sm:px-10 lg:px-20 shadow-md shadow-gray-700 max-w-2xl leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 animate__animated animate__fadeInDown wow mb-8 px-6 sm:px-10 lg:px-20 shadow-md shadow-gray-700 max-w-2xl leading-relaxed">
                 {item.description}
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                <Link to='/bookingtable'>
-               <button className="bg-gradient-to-r from-pink-400 to-pink-600 hover:from-pink-600 hover:to-pink-400 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-pink-600/50 transform hover:scale-110">
+               <button className="bg-gradient-to-r from-pink-400 to-pink-600 hover:from-pink-600 hover:to-pink-400 text-white wow animate__backInLeft animate__animated px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-pink-600/50 transform hover:scale-110">
                   {item.button1}
                 </button>
                </Link>
                <Link to='/CafeMenuCard'>
-               <button className="bg-gradient-to-r from-teal-400 to-teal-600 hover:from-teal-600 hover:to-teal-400 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-teal-600/50 transform hover:scale-110">
+               <button className="bg-gradient-to-r  from-teal-400 to-teal-600 hover:from-teal-600 hover:to-teal-400 text-white wow animate__backInRight animate__animated px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 ease-in-out shadow-xl shadow-teal-600/50 transform hover:scale-110">
                   {item.button2}
                 </button>
                </Link>

@@ -30,7 +30,7 @@ const CafeServices = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 py-20">
       <div className="text-center w-full max-w-6xl px-4">
-        <h1 className="inline-block text-white bg-gradient-to-r from-pink-400 to-pink-600 text-3xl md:text-4xl font-bold rounded-lg shadow-lg px-8 py-4 mb-16">
+        <h1 className="inline-block text-white bg-gradient-to-r animate__zoomIn wow animate__animated from-pink-400 to-pink-600 text-3xl md:text-4xl font-bold rounded-lg shadow-lg px-8 py-4 mb-16">
           OUR CAFE SERVICES
         </h1>
 
@@ -38,7 +38,7 @@ const CafeServices = () => {
           {cafeServices.map((cafeService) => (
             <div
               key={cafeService.id}
-              className="bg-white rounded-xl shadow-xl p-8 flex flex-col justify-between h-full transform transition-all duration-500 "
+              className="bg-white rounded-xl shadow-xl p-8 flex flex-col justify-between h-full transform transition-all duration-500  animate__fadeInUpBig wow animate__animated"
             >
               <div className="flex flex-col items-center">
                 <img

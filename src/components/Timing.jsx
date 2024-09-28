@@ -13,7 +13,7 @@ const Timing = () => {
       />
 
       {/* Content */}
-      <div className="absolute inset-0 flex items-center  px-4 sm:px-8 md:px-16 lg:px-32">
+      <div className="absolute inset-0 flex items-center  px-4 sm:px-8 md:px-16 lg:px-32 animate__slideInLeft wow animate__animated">
         <div className="bg-white bg-opacity-90 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg p-6 sm:p-8 md:p-10 lg:p-12 rounded-lg shadow-2xl">
           {/* Heading */}
           <h2 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8 text-center">

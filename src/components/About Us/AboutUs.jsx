@@ -27,7 +27,7 @@ const AboutUs = () => {
             </div>
 
             {/* Text Overlay */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center md:space-y-6 px-4 md:px-10 lg:px-0">
+            <div className="absolute inset-0 flex flex-col items-center justify-center md:space-y-6 px-4 md:px-10 lg:px-0 animate__animated animate__fadeInDown wow">
               {/* Title "About Us" */}
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white bg-red-700 bg-opacity-80 px-6  md:px-10 md:py-4 rounded-xl shadow-2xl mb-8 md:mb-20">
                 About Us
