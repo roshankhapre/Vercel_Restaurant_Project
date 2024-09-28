@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { aboutUsImage } from "../../assets/assets";
 import { Link } from "react-router-dom";
+import WOW from "wowjs";
 
 const cafeAbout = [
   {
@@ -12,6 +13,9 @@ const cafeAbout = [
 ];
 
 const AboutUs = () => {
+  useEffect(() => {
+    new WOW.WOW().init();
+  }, []);
   return (
     <div className="relative w-full md:min-h-screen flex flex-col items-center justify-center bg-gray-900">
       <div className="relative w-full h-full">
@@ -61,8 +65,8 @@ const AboutUs = () => {
               </div>
 
               {/* Call to Action */}
-              <Link 
-                to='/menu'
+              <Link
+                to="/menu"
                 className="mt-4 sm:mt-6 inline-block px-6 sm:px-8 py-3 sm:py-4 bg-red-600 text-white text-sm sm:text-lg font-semibold rounded-full shadow-lg transition-transform transform hover:scale-105"
               >
                 Explore Our Menu

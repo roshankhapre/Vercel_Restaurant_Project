@@ -35,7 +35,7 @@ const AboutUsFood = () => {
       </h1>
 
       {/* Layout with content on the left and large image on the right */}
-      <div className="flex flex-col md:flex-row w-full md:w-3/4 items-start justify-between">
+      <div className="flex flex-col md:flex-row w-full md:w-3/4 items-start justify-between  wow animate__animated animate__fadeInUp">
         {/* Left side with first two images and text */}
         <div className="flex flex-col md:w-1/2 items-start space-y-8 p-4 ">
           {aboutFood.slice(0, 2).map((food) => (

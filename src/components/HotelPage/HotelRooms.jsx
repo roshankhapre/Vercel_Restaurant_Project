@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { hotelRoomImages } from "../../assets/assets";
+import WOW from "wowjs";
 
 const hotelRoom = [
   {
@@ -17,11 +18,14 @@ const hotelRoom = [
 ];
 
 const HotelRooms = () => {
+  useEffect(() => {
+    new WOW.WOW().init();
+  }, []);
   return (
     <div className="relative w-full pb-20  h-screen bg-gradient-to-t from-gray-100 via-gray-200 to-red-100 flex flex-col items-center justify-center px-4 md:px-8">
       {/* Rooms View Heading */}
       <div className="absolute top-10 w-full flex justify-center ">
-        <h1 className="inline-block text-white  p-4 md:p-6 animate__bounceIn wow animate__animated bg-green-700 rounded-lg text-3xl md:text-4xl font-bold shadow-xl tracking-wide">
+        <h1 className="inline-block text-white  p-4 md:p-6  bg-green-700 rounded-lg text-3xl md:text-4xl font-bold shadow-xl tracking-wide wow animate__animated animate__bounceIn ">
           ROOMS VIEW
         </h1>
       </div>
