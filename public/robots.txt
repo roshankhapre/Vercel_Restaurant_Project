@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 Sitemap: https://www.darshancafe.com/sitemap.xml
+=======
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+>>>>>>> 2bc1950bd4aaa06d8b48f11a274d4d2011a9d5bf

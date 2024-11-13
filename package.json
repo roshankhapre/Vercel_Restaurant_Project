@@ -16,15 +16,21 @@
     "react-icons": "^5.3.0",
     "react-router": "^6.26.2",
     "react-router-dom": "^6.26.2",
+<<<<<<< HEAD
     "react-router-sitemap": "^1.2.0",
+=======
+>>>>>>> 2bc1950bd4aaa06d8b48f11a274d4d2011a9d5bf
     "react-scripts": "5.0.1",
     "router": "^1.3.8",
     "web-vitals": "^2.1.4",
     "wow": "^0.0.6",
     "wowjs": "^1.1.3"
   },
+<<<<<<< HEAD
   "homepage": "https://www.darshancafe.com",
 
+=======
+>>>>>>> 2bc1950bd4aaa06d8b48f11a274d4d2011a9d5bf
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
