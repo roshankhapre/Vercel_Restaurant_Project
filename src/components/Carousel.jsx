@@ -34,7 +34,7 @@ const texts = [
     title: "Relax in Our Beautiful Rooms",
     description:
       "Stay in one of our luxurious rooms with a beautiful view of the city.",
-    button1: "Book a Room",
+    button1: "Book a Room", 
     button2: "View Rooms",
     link:"/hotel"
   },
