@@ -167,7 +167,7 @@ const BookTableForm = () => {
 
           <div>
             <label className="block text-gray-800 mb-2" htmlFor="email">
-              Email Address
+              Email Address (Optional)
             </label>
             <input
               type="email"
