@@ -76,12 +76,13 @@ const Footer = () => {
                 <a href="tel:+9516997144">+9516997144</a>
               </li>
               <li className="mb-2 hover:text-red-700 w-64 transition-colors duration-300">
-                booking@webexample.com
+              darshancafe2019@gmail.com
+
               </li>
             </ul>
             <div className="flex mt-4 space-x-3">
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/darshancafee/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-pink-500 p-2 rounded-full text-white hover:bg-red-700 transition-colors duration-300"
