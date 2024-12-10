@@ -74,9 +74,9 @@ const NavbarNew = () => {
           <div className="sm:flex sm:flex-row ">
             Mon - Sun: 11:00 am - 11:00 pm{" "}
             <span className="hidden  sm:block">&nbsp;|&nbsp;</span>{" "}
-            <span className="flex sm:flex-none ">Phone: 9516997144</span>
-            <span className="hidden  sm:block">&nbsp;|&nbsp;</span> KS Darsan
-            Cafe, 1 VIP Paraspar Nagar, Gopur Square, Indore - 452009
+            <span className="flex sm:flex-none hover:text-red-700">Phone: <a href="tel:+9516997144">+91 9516997144</a></span>
+            <span className="hidden  sm:block hover:text-red-700">&nbsp;|&nbsp;</span><a href="https://maps.app.goo.gl/erHXcrZ9iNo6q41v9"> KS Darsan
+            Cafe, 1 VIP Paraspar Nagar, Gopur Square, Indore - 452009</a>
           </div>
         </div>
       </div>

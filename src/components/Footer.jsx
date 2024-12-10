@@ -24,7 +24,7 @@ const Footer = () => {
               Are You Want To Make A Reservation,
               <span className="text-white underline hover:text-red-700 transition-colors duration-300">
                 {" "}
-                Get Your Table
+               <Link to="/bookingTable"> Get Your Table</Link>
               </span>
             </p>
           </div>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <h2 className="text-gray-400 text-2xl">
                  CONTACT{" "}
                  <span className="text-yellow-50 hover:text-red-700 transition-colors duration-300">
-                    <a href="tel:+9516997144">+9516997144</a>
+                    <a href="tel:+9516997144">+91 9516997144</a>
                   </span>
                 </h2>
               </div>
