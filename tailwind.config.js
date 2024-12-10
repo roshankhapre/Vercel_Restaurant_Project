@@ -3,7 +3,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'min-907': '907px',
+        'max-908': '908px', // Define custom breakpoint
+      },
+    },
   },
   plugins: [],
 }

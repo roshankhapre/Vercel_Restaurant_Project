@@ -83,28 +83,28 @@ const NavbarNew = () => {
 
       {/* Main Navbar */}
       <nav className="bg-neutral-950 ">
-        <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+        <div className="  px-4 py-1 flex items-center justify-between">
           {/* Logo with Home Page Link */}
           <div className="flex items-center">
-            <Link to="/" className="text-white text-2xl font-bold">
+            <Link to="/" className="text-white xl:text-2xl font-bold">
             <div className="flex">
-            <div> <img src={assets.logofood} alt="logo" className="h-20" /></div><div className="content-center text-orange-300">Darshan's</div>
+            <div> <img src={assets.logofood} alt="logo" className=" h-14 lg:w-auto lg:h-16 " /></div><div className="content-center text-orange-300">Darshan's</div>
             </div>
             </Link>
           </div>
 
           {/* Menu Links */}
-          <div className="hidden md:flex space-x-8 items-center">
+          <div className="hidden max-908:flex text-sm lg:text-base xl:text-xl space-x-7 xl:space-x-8 items-center px-5 xl:px-0">
             <Link
               to="/cafe"
-              className="text-white text-xl hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
+              className="text-white  hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
               onClick={() => setIsOpen(false)}
             >
               Cafe
             </Link>
             <Link
               to="/restaurant"
-              className="text-white text-xl hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
+              className="text-white  hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
               onClick={() => setIsOpen(false)}
             >
               Restaurant
@@ -112,7 +112,7 @@ const NavbarNew = () => {
 
             <Link
               to="/hotel"
-              className="text-white text-xl hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
+              className="text-white  hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
               onClick={() => setIsOpen(false)}
             >
               Hotel Room
@@ -120,7 +120,7 @@ const NavbarNew = () => {
 
             <Link
               to="/rooftop"
-              className="text-white text-xl hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
+              className="text-white  hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
               onClick={() => setIsOpen(false)}
             >
               Rooftop
@@ -132,7 +132,7 @@ const NavbarNew = () => {
               ref={dropdownRef}
             >
               <button
-                className="text-white text-xl hover:text-red-500 transition-all duration-300 flex items-center tracking-wide font-medium"
+                className="text-white  hover:text-red-500 transition-all duration-300 flex items-center tracking-wide font-medium"
                 onClick={toggleDropdown}
               >
                 Menu
@@ -163,7 +163,7 @@ const NavbarNew = () => {
             </div>
             <Link
               to="/aboutus"
-              className="text-white text-xl hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
+              className="text-white  hover:text-red-500 transition-all duration-300 tracking-wide font-medium"
               onClick={() => setIsOpen(false)}
             >
               About Us
@@ -171,14 +171,14 @@ const NavbarNew = () => {
           </div>
           <div>
             <Link to="/bookingTable">
-              <button className="px-12 py-2 border-2 text-sm font-bold hidden sm:block border-red-600 text-white  hover:text-red-500 hover:border-red-500 transition-all">
+              <button className=" px-6 xl:px-12 py-2 border-2 text-sm font-bold hidden sm:block border-red-600 text-white  hover:text-red-500 hover:border-red-500 transition-all">
                 BOOK A TABLE <ArrowForwardIcon />
               </button>
             </Link>
           </div>
 
           {/* Mobile Menu Toggle */}
-          <div className="md:hidden flex items-center pb-3">
+          <div className="max-908:hidden flex items-center pb-3">
             <button
               onClick={toggleMenu}
               className="text-white hover:text-red-500 transition-all duration-300"
@@ -190,7 +190,7 @@ const NavbarNew = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden bg-neutral-950 text-white font-bold shadow-lg border-t border-red-500 animate-slide-in-right">
+          <div className="max-908:hidden bg-neutral-950 text-white font-bold shadow-lg border-t border-red-500 animate-slide-in-right">
             <Link
               to="/cafe"
               className="block px-4 py-3 text-white hover:text-red-500 transition-all duration-300 tracking-wide"

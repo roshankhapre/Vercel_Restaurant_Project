@@ -5,15 +5,15 @@ import CallIcon from '@mui/icons-material/Call';
 const About = () => {
   return (
     <div className='p-4 '>
-      <div className='flex flex-col md:flex-row lg:items-center lg:justify-center gap-6'>
-        <div className='w-96 lg:w-1/2 animate__backInLeft wow animate__animated'>
+      <div className=' flex flex-col md:flex-row items-center lg:items-center lg:justify-center gap-6'>
+        <div className='justify-center w-96 lg:w-1/2 md:hidden lg:flex animate__backInLeft wow animate__animated'>
           <img
             src={assets.chef}
             alt="chef "
-            className=' w-auto h-auto  rounded-lg object-cover'
+            className='  '
           />
         </div>
-        <div className='flex flex-col justify-center lg:w-1/2 animate__backInRight wow animate__animated'>
+        <div className='flex flex-col justify-center  lg:w-1/2 animate__backInRight wow animate__animated'>
           <div className='bg-red-700 text-white rounded-lg font-bold text-center  py-2 px-4 mb-4 w-64'>
             ABOUT K'S Darshan Cafe
           </div>
