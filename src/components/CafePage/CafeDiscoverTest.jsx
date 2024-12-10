@@ -4,7 +4,7 @@ import { cafeImages } from "../../assets/assets";
 const CafeDiscover = [
   {
     id: 1,
-    img: cafeImages.cafeTest1,
+    img: cafeImages.chill,
     description: "Come And Taste Our Delicious Food",
   },
   {

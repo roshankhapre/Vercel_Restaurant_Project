@@ -250,6 +250,8 @@ import wmanreview4 from "./celebration-deity-navratri.webp";
 import wwmanreview5 from "./celebration-navratri-deity (1).webp";
 import manreview6 from "./people-taking-part-sustainable-travel-movement.webp";
 
+import chill from './chill (1).gif'
+
 export const menu = {
   dal,
   panner,
@@ -555,7 +557,7 @@ export const cafeImages = {
   cafeService2,
   cafeService3,
   cafeDiscover,
-  cafeTest1,
+  chill ,
   cafeTest2,
   cafeTest3,
   cafeTest4,
