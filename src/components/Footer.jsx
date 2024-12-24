@@ -43,7 +43,7 @@ const Footer = () => {
                 <h2 className="text-gray-400 text-2xl">
                  CONTACT{" "}
                  <span className="text-yellow-50 hover:text-red-700 transition-colors duration-300">
-                    <a href="tel:+9516997144">+91 9516997144</a>
+                    <a href="tel:+93020 10771">+91 93020 10771</a>
                   </span>
                 </h2>
               </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2 w-32 hover:text-red-700 transition-colors duration-300">
-                <a href="tel:+9516997144">+9516997144</a>
+                <a href="tel:+93020 10771">+93020 10771</a>
               </li>
               <li className="mb-2 hover:text-red-700 w-64 transition-colors duration-300">
               darshancafe2019@gmail.com

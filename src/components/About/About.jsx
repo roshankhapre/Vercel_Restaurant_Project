@@ -28,7 +28,7 @@ const About = () => {
             <span className='rounded-full bg-red-700 p-2 mr-3 text-white'>
               <CallIcon />
             </span>
-            <span className='text-lg font-medium'> Phone: 9516997144</span>
+            <span className='text-lg font-medium'> Phone: 93020 10771</span>
             </a>
           </div>
         </div>
